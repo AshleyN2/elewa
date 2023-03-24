@@ -20,6 +20,7 @@ import { DeleteBotModalComponent } from './modals/delete-bot-modal/delete-bot-mo
 import { NewStoryService } from './services/new-story.service';
 
 import { ConvsMgrStoriesRouterModule } from './stories.router';
+import { VideoBlockModalComponent } from './modals/video-block-modal/video-block-modal.component';
 
 @NgModule({
   imports: [
@@ -33,7 +34,7 @@ import { ConvsMgrStoriesRouterModule } from './stories.router';
   declarations: [
     StoriesDashboardComponent, StoryListItemComponent,
     StoryListComponent, CreateBotModalComponent,
-    DeleteBotModalComponent, StoriesDashboardComponent,
+    DeleteBotModalComponent, StoriesDashboardComponent, VideoBlockModalComponent,
   ],
 
   providers: [NewStoryService],
